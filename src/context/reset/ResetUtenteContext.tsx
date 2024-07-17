@@ -1,0 +1,20 @@
+const resetUtenteContext = async (UtenteMyContext: any) => {
+  UtenteMyContext.setA4_03_TabRig_Utenti_id_record(undefined);
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_01_nome("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_02_cognome("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_03_grado("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_04_matricola("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_05_nome_utente("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_06_password("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_07_attivo(1);
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_08_data_ultimo_accesso("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_09_ora_ultimo_accesso("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_10_reparto("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_11_indirizzo("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_12_sn_chiave("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_13_SMSBook(0);
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_14_email("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_15_telefono_uno("");
+  UtenteMyContext.setA4_03_TabRig_Utenti_M_16_telefono_due("");
+};
+export default resetUtenteContext;
